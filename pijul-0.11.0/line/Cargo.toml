@@ -1,0 +1,15 @@
+[package]
+name = "line"
+description = "A pure-Rust implementation of line editing in a terminal"
+version = "0.1.9"
+readme = "README.md"
+authors = ["pe@pijul.org <pe@pijul.org>"]
+include = [ "Cargo.toml", "src/lib.rs", "src/windows.rs", "src/unix.rs", "README.md" ]
+documentation = "https://docs.rs/lines"
+license = "Apache-2.0/MIT"
+
+[dependencies]
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+utf8parse = "0.1"

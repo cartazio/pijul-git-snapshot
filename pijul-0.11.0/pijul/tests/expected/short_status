@@ -1,0 +1,9 @@
+D del
+D dir
+D dir/sub
+D dir/sub/subsub
+D dir/sub/subsub/file
+M mod
+→ moved
+A touch_add
+? touch_no_add

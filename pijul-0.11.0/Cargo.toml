@@ -1,0 +1,7 @@
+[workspace]
+
+members = [ "libpijul", "pijul", "line" ]
+
+[replace]
+"libpijul:0.11.0" = { path = "libpijul" }
+"line:0.1.9" = { path = "line" }
